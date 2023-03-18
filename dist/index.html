@@ -10,80 +10,84 @@
 		<!-- header -->
 		<header class="header">
 			<h1 class="header__title">Yukihira Restaurant</h1>
-			<nav class="header__nav">
-				<div class="header__nav-item">Home</div>
-				<div class="header__nav-item">Menu</div>
-				<div class="header__nav-item header__nav-item--active">Contact</div>
+			<nav class="nav">
+				<div class="nav__item">Home</div>
+				<div class="nav__item">Menu</div>
+				<div class="nav__item nav__item--active">Contact</div>
 			</nav>
 		</header>
 		<!-- home -->
-		<main class="home">
-			<div class="home__content">
-				<p class="home__title">
-					<span class="home__text">
-						Welcome to Yukihira Restaurant! Experience delicious food crafted with fresh
-						ingredients, unique flair, and even culinary battles. Come prepared to be amazed!
-					</span>
-				</p>
-				<div class="home__subtitle">Spice up your life!</div>
-			</div>
-			<div class="home__testimonial">
-				<img class="home__img" src="erina.jpg" />
-				<p class="home__quote">
-					The dishes at his restaurant showcase not only his skills, but also his passion for
-					cooking. A must-visit for food lovers!
-				</p>
-				<p class="home__author">Nakiri Erina</p>
-			</div>
-			<div class="home__testimonial">
-				<img class="home__img" src="ryo.jpg" />
-				<p class="home__quote">
-					Soma's relentless pursuit of culinary perfection is reflected in every bite. Truly an
-					exceptional dining experience.
-				</p>
-				<p class="home__author">Ryo Kurokiba</p>
-			</div>
-		</main>
-		<!-- menu -->
-		<main class="menu">
-			<div class="menu__item">
-				<img src="" />
-				<p class="menu__item-name">Eggs Benedict Yakisoba</p>
-				<p class="menu__item-description">
-					A fusion dish combining western-style Eggs Benedict with savory Japanese yakisoba
-					noodles. Topped with a poached egg, hollandaise sauce, and bacon for a unique and
-					delicious flavor experience.
-				</p>
-				<p class="menu__item-price">$199</p>
-			</div>
-			<div class="menu__item">
-				<img src="" />
-				<p class="menu__item-name">Gotcha Pork Roast</p>
-				<p class="menu__item-description">
-					A savory pork dish coated in a flavorful herb crust, served with roasted vegetables
-					and a side of tangy apple sauce. A must-try for meat lovers!
-				</p>
-				<p class="menu__item-price">$299</p>
-			</div>
-			<div class="menu__item">
-				<img src="" />
-				<p class="menu__item-name">Transforming Furikake Gohan</p>
-				<p class="menu__item-description">
-					A classic Japanese comfort food with a twist! Our special furikake seasoning mix
-					transforms simple rice into a flavorful dish. Served with your choice of protein.
-				</p>
-				<p class="menu__item-price">$199</p>
-			</div>
-		</main>
-		<!-- contact -->
-		<main class="contact">
-			<h1 class="contact__title">TIME</h1>
-			<p class="contact__info">MON - SUN: 8AM - 11PM</p>
-			<h1 class="contact__title">ADDRESS</h1>
-			<p class="contact__info">58N 018, 439 East District</p>
-			<h1 class="contact__title">PHONE</h1>
-			<p class="contact__info">+385 99 771 7614</p>
-		</main>
+			<main class="container home">
+				<div class="content">
+					<p class="content__title">
+						<span class="content__text">
+							Welcome to Yukihira Restaurant! Experience delicious food crafted with fresh
+							ingredients, unique flair, and even culinary battles. Come prepared to be
+							amazed!
+						</span>
+					</p>
+					<div class="content__subtext">Spice up your life!</div>
+				</div>
+				<div class="card">
+					<img class="card__image" src="erina.jpg" />
+					<p class="card__text">
+						The dishes at his restaurant showcase not only his skills, but also his passion
+						for cooking. A must-visit for food lovers!
+					</p>
+					<p class="card__subtext">Nakiri Erina</p>
+				</div>
+				<div class="card">
+					<img class="card__image" src="ryo.jpg" />
+					<p class="card__text">
+						Soma's relentless pursuit of culinary perfection is reflected in every bite. Truly
+						an exceptional dining experience.
+					</p>
+					<p class="card__subtext">Ryo Kurokiba</p>
+				</div>
+			</main>
+			<!-- menu -->
+			<main class="container menu">
+				<div class="card">
+					<img class="card__image" src="" />
+					<p class="card__text">Eggs Benedict Yakisoba</p>
+					<p class="card__text">
+						A fusion dish combining western-style Eggs Benedict with savory Japanese yakisoba
+						noodles. Topped with a poached egg, hollandaise sauce, and bacon for a unique and
+						delicious flavor experience.
+					</p>
+					<p class="card__subtitle">$199</p>
+				</div>
+				<div class="card">
+					<img class="card__image" src="" />
+					<p class="card__text">Gotcha Pork Roast</p>
+					<p class="card__text">
+						A savory pork dish coated in a flavorful herb crust, served with roasted
+						vegetables and a side of tangy apple sauce. A must-try for meat lovers!
+					</p>
+					<p class="card__subtext">$299</p>
+				</div>
+				<div class="card">
+					<img class="card__image" src="" />
+					<p class="card__text">Transforming Furikake Gohan</p>
+					<p class="card__text">
+						A classic Japanese comfort food with a twist! Our special furikake seasoning mix
+						transforms simple rice into a flavorful dish. Served with your choice of protein.
+					</p>
+					<p class="card__subtext">$199</p>
+				</div>
+			</main>
+			<!-- contact -->
+			<main class="container contact">
+				<div class="content">
+					<h1 class="content__text">TIME</h1>
+					<p class="content__text">MON - SUN: 8AM - 11PM</p>
+					<h1 class="contact__text">ADDRESS</h1>
+					<p class="contact__text">58N 018, 439 East District</p>
+					<h1 class="contact__text">PHONE</h1>
+					<p class="contact__text">+385 99 771 7614</p>
+				</div>
+			</main>
+
 		<footer>
 			<span>Yukihira Restaurant</span>
 		</footer>

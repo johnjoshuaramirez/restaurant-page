@@ -20,17 +20,21 @@
 }
 
 body {
+   margin: 0;
+   background-color: rgb(173, 173, 173);
+}
+
+.container {
    max-width: 1000px;
    margin: 0 auto;
 }
 
-.menu,
-.contact {
-   display: none;
-}
+/* header */
 
 .header {
    padding: 1rem 0 0 0;
+   background-color: black;
+   border-bottom: white;
 }
 
 .header__title {
@@ -38,36 +42,53 @@ body {
    text-align: center;
    font-size: 6rem;
    font-family: 'Sedona', sans-serif;
+   background: linear-gradient(to bottom, rgb(255, 38, 0), rgb(255, 217, 0));
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
-.header__nav {
+.nav {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    justify-items: center;
+   background-color: gray;
+   padding: .5rem 2rem;
 }
 
-.header__nav-item {
+.nav__item {
    font-size: 2rem;
    font-weight: 600;
    font-family: 'Oswald', sans-serif;
+   cursor: pointer;
 }
 
-.home {
+.nav__item:hover {
+   color: #f04a38;
+}
+
+/* home */
+
+.home, .menu, .contact {
    display: grid;
 }
 
-.home__content {
+.content {
    display: grid;
    margin: 3rem 5rem 3rem 2rem;
 }
 
-.home__title {
+.content__title {
    font-size: 2rem;
    font-weight: 600;
    font-family: 'Oswald', sans-serif;
 }
 
-.home__text {
+.content__title::first-line {
+   background-color: #fff;
+ }
+
+.content__text {
    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
    -webkit-box-decoration-break: clone;
    box-decoration-break: clone;
@@ -77,22 +98,18 @@ body {
    line-height: 2.2;
 }
 
-.home__title::first-line {
-   background-color: #fff;
- }
-
-.home__subtitle {
+.content__subtext {
    font-size: 2rem;
    font-weight: 600;
    font-family: 'Oswald', sans-serif;
    justify-self: end;
    box-shadow: 7px 7px 0px 0px #e74c3c;
-   color: white;
+   color: #e74c3c;
    background-color: black;
    padding: 1rem
 }
 
-.home__testimonial {
+.card {
    display: grid;
    justify-self: center;
    background-color: black;
@@ -104,9 +121,10 @@ body {
    color: white;
    font-family: 'Oswald', sans-serif;
    box-sizing: border-box;
+   box-shadow: 7px 7px 0px 0px #e74c3c;
 }
 
-.home__img {
+.card__image {
    justify-self: center;
    margin-bottom: 1rem;
    width: 15rem;
@@ -116,12 +134,19 @@ body {
    object-position: top;
 }
 
-.home__quote {
+.card__text {
    justify-self: center;
    margin: 1rem 0;
 }
 
-.home__author {
+.card__subtext {
    justify-self: end;
    margin: 0;
+}
+
+
+
+.home,
+.contact {
+   display: none;
 }

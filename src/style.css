@@ -51,7 +51,7 @@ body {
    grid-template-columns: repeat(3, 1fr);
    justify-items: center;
    background-color: gray;
-   padding: .5rem 2rem;
+   padding: .5rem 10rem;
 }
 
 .nav__item {
@@ -107,8 +107,7 @@ body {
    box-shadow: 7px 7px 0px 0px #e74c3c;
 }
 
-.content__center {
-   max-width: fit-content;
+.content--center {
    justify-self: center;
 }
 
@@ -146,7 +145,7 @@ body {
    height: 15rem;
    border-radius: 50%;
    object-fit: cover;
-   object-position: top;
+   object-position: center center;
 }
 
 .card__text {
@@ -159,12 +158,13 @@ body {
    margin: 0;
 }
 
-.content-center {
-   justify-self: center;
+footer {
+   text-align: start;
+   padding: 1rem;
+   font-family: 'Oswald', sans-serif;
 }
 
-
-.home,
-.menu {
+.contact,
+.home {
    display: none;
 }

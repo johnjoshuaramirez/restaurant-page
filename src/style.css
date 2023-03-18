@@ -1,3 +1,127 @@
-.menu, .contact {
+@font-face {
+   font-family: 'Sedona';
+   src: url('./sedona.ttf') format('truetype');
+   font-weight: 600;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Oswald';
+   src: url('./oswald.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Oswald';
+   src: url('./oswald-bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+body {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.menu,
+.contact {
    display: none;
+}
+
+.header {
+   padding: 1rem 0 0 0;
+}
+
+.header__title {
+   margin: 0;
+   text-align: center;
+   font-size: 6rem;
+   font-family: 'Sedona', sans-serif;
+}
+
+.header__nav {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+}
+
+.header__nav-item {
+   font-size: 2rem;
+   font-weight: 600;
+   font-family: 'Oswald', sans-serif;
+}
+
+.home {
+   display: grid;
+}
+
+.home__content {
+   display: grid;
+   margin: 3rem 5rem 3rem 2rem;
+}
+
+.home__title {
+   font-size: 2rem;
+   font-weight: 600;
+   font-family: 'Oswald', sans-serif;
+}
+
+.home__text {
+   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+   -webkit-box-decoration-break: clone;
+   box-decoration-break: clone;
+   background-color: #e74c3c;
+   color: black;
+   padding: 0.2rem 1.5rem;
+   line-height: 2.2;
+}
+
+.home__title::first-line {
+   background-color: #fff;
+ }
+
+.home__subtitle {
+   font-size: 2rem;
+   font-weight: 600;
+   font-family: 'Oswald', sans-serif;
+   justify-self: end;
+   box-shadow: 7px 7px 0px 0px #e74c3c;
+   color: white;
+   background-color: black;
+   padding: 1rem
+}
+
+.home__testimonial {
+   display: grid;
+   justify-self: center;
+   background-color: black;
+   margin: 2rem 0 2rem 0;
+   padding: 2rem;
+   max-width: 35rem;
+   font-size: 2rem;
+   font-weight: 600;
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   box-sizing: border-box;
+}
+
+.home__img {
+   justify-self: center;
+   margin-bottom: 1rem;
+   width: 15rem;
+   height: 15rem;
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: top;
+}
+
+.home__quote {
+   justify-self: center;
+   margin: 1rem 0;
+}
+
+.home__author {
+   justify-self: end;
+   margin: 0;
 }

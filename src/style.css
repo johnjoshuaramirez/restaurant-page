@@ -1,20 +1,20 @@
 @font-face {
    font-family: 'Sedona';
-   src: url('./sedona.ttf') format('truetype');
+   src: url('./assets/sedona.ttf') format('truetype');
    font-weight: 600;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Oswald';
-   src: url('./oswald.ttf') format('truetype');
+   src: url('./assets/oswald.ttf') format('truetype');
    font-weight: bold;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Oswald';
-   src: url('./oswald-bold.ttf') format('truetype');
+   src: url('./assets/oswald-bold.ttf') format('truetype');
    font-weight: bold;
    font-style: normal;
 }

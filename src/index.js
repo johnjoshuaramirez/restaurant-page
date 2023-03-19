@@ -1,9 +1,9 @@
 import './style.css';
-import erina from './erina.jpg';
-import ryo from './ryo.jpg';
-import egg from './egg.png';
-import roast from './roast.jpg';
-import transform from './transform.gif';
+import erina from './assets/erina.jpg';
+import ryo from './assets/ryo.jpg';
+import egg from './assets/egg.png';
+import roast from './assets/roast.jpg';
+import transform from './assets/transform.gif';
 import { header } from './components/header'
 import { home } from './components/home';
 import { menu } from './components/menu';

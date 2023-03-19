@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./sedona.ttf */ \"./src/sedona.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./oswald.ttf */ \"./src/oswald.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./oswald-bold.ttf */ \"./src/oswald-bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\r\\n   font-family: 'Sedona';\\r\\n   src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format('truetype');\\r\\n   font-weight: 600;\\r\\n   font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n   font-family: 'Oswald';\\r\\n   src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('truetype');\\r\\n   font-weight: bold;\\r\\n   font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n   font-family: 'Oswald';\\r\\n   src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format('truetype');\\r\\n   font-weight: bold;\\r\\n   font-style: normal;\\r\\n}\\r\\n\\r\\nbody {\\r\\n   margin: 0;\\r\\n   background-color: rgb(173, 173, 173);\\r\\n}\\r\\n\\r\\n.container {\\r\\n   max-width: 1000px;\\r\\n   margin: 0 auto;\\r\\n}\\r\\n\\r\\n.header {\\r\\n   padding: 1rem 0 0 0;\\r\\n   background-color: black;\\r\\n   border-bottom: white;\\r\\n}\\r\\n\\r\\n.header__title {\\r\\n   margin: 0;\\r\\n   text-align: center;\\r\\n   font-size: 6rem;\\r\\n   font-family: 'Sedona', sans-serif;\\r\\n   background: linear-gradient(to bottom, rgb(255, 38, 0), rgb(255, 217, 0));\\r\\n   -webkit-background-clip: text;\\r\\n   background-clip: text;\\r\\n   -webkit-text-fill-color: transparent;\\r\\n}\\r\\n\\r\\n.nav {\\r\\n   display: grid;\\r\\n   grid-template-columns: repeat(3, 1fr);\\r\\n   justify-items: center;\\r\\n   background-color: gray;\\r\\n   padding: .5rem 10rem;\\r\\n}\\r\\n\\r\\n.nav__item {\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n   cursor: pointer;\\r\\n}\\r\\n\\r\\n.nav__item:hover {\\r\\n   color: #f04a38;\\r\\n}\\r\\n\\r\\n.home, .menu, .contact {\\r\\n   display: grid;\\r\\n}\\r\\n\\r\\n.content {\\r\\n   display: grid;\\r\\n   margin: 3rem 5rem 3rem 2rem;\\r\\n}\\r\\n\\r\\n.content__title {\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n}\\r\\n\\r\\n.content__title::first-line {\\r\\n   background-color: #fff;\\r\\n }\\r\\n\\r\\n.content__text {\\r\\n   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);\\r\\n   -webkit-box-decoration-break: clone;\\r\\n   box-decoration-break: clone;\\r\\n   background-color: #e74c3c;\\r\\n   color: black;\\r\\n   padding: 0.2rem 1.5rem;\\r\\n   line-height: 2.2;\\r\\n   font-family: 'Oswald', 'sans-serif';\\r\\n}\\r\\n\\r\\n.content__text--sm {\\r\\n   line-height: normal;\\r\\n   text-align: center;\\r\\n   max-width: 24rem;\\r\\n}\\r\\n\\r\\n.content__text--black {\\r\\n   background-color: black;\\r\\n   color: #e74c3c;\\r\\n   box-shadow: 7px 7px 0px 0px #e74c3c;\\r\\n}\\r\\n\\r\\n.content--center {\\r\\n   justify-self: center;\\r\\n}\\r\\n\\r\\n.content__subtext {\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n   justify-self: end;\\r\\n   box-shadow: 7px 7px 0px 0px #e74c3c;\\r\\n   color: #e74c3c;\\r\\n   background-color: black;\\r\\n   padding: 1rem;\\r\\n   font-family: 'Oswald', 'sans-serif';\\r\\n}\\r\\n\\r\\n.card {\\r\\n   display: grid;\\r\\n   justify-self: center;\\r\\n   background-color: black;\\r\\n   margin: 2rem 0 2rem 0;\\r\\n   padding: 2rem;\\r\\n   max-width: 35rem;\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   color: white;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n   box-sizing: border-box;\\r\\n   box-shadow: 7px 7px 0px 0px #e74c3c;\\r\\n}\\r\\n\\r\\n.card__image {\\r\\n   justify-self: center;\\r\\n   margin-bottom: 1rem;\\r\\n   width: 15rem;\\r\\n   height: 15rem;\\r\\n   border-radius: 50%;\\r\\n   object-fit: cover;\\r\\n   object-position: center center;\\r\\n}\\r\\n\\r\\n.card__text {\\r\\n   justify-self: center;\\r\\n   margin: 1rem 0;\\r\\n}\\r\\n\\r\\n.card__subtext {\\r\\n   justify-self: end;\\r\\n   margin: 0;\\r\\n}\\r\\n\\r\\nfooter {\\r\\n   text-align: center;\\r\\n   padding: 1rem;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restuarant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/sedona.ttf */ \"./src/assets/sedona.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/oswald.ttf */ \"./src/assets/oswald.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/oswald-bold.ttf */ \"./src/assets/oswald-bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\r\\n   font-family: 'Sedona';\\r\\n   src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format('truetype');\\r\\n   font-weight: 600;\\r\\n   font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n   font-family: 'Oswald';\\r\\n   src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('truetype');\\r\\n   font-weight: bold;\\r\\n   font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n   font-family: 'Oswald';\\r\\n   src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format('truetype');\\r\\n   font-weight: bold;\\r\\n   font-style: normal;\\r\\n}\\r\\n\\r\\nbody {\\r\\n   margin: 0;\\r\\n   background-color: rgb(173, 173, 173);\\r\\n}\\r\\n\\r\\n.container {\\r\\n   max-width: 1000px;\\r\\n   margin: 0 auto;\\r\\n}\\r\\n\\r\\n.header {\\r\\n   padding: 1rem 0 0 0;\\r\\n   background-color: black;\\r\\n   border-bottom: white;\\r\\n}\\r\\n\\r\\n.header__title {\\r\\n   margin: 0;\\r\\n   text-align: center;\\r\\n   font-size: 6rem;\\r\\n   font-family: 'Sedona', sans-serif;\\r\\n   background: linear-gradient(to bottom, rgb(255, 38, 0), rgb(255, 217, 0));\\r\\n   -webkit-background-clip: text;\\r\\n   background-clip: text;\\r\\n   -webkit-text-fill-color: transparent;\\r\\n}\\r\\n\\r\\n.nav {\\r\\n   display: grid;\\r\\n   grid-template-columns: repeat(3, 1fr);\\r\\n   justify-items: center;\\r\\n   background-color: gray;\\r\\n   padding: .5rem 10rem;\\r\\n}\\r\\n\\r\\n.nav__item {\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n   cursor: pointer;\\r\\n}\\r\\n\\r\\n.nav__item:hover {\\r\\n   color: #f04a38;\\r\\n}\\r\\n\\r\\n.home, .menu, .contact {\\r\\n   display: grid;\\r\\n}\\r\\n\\r\\n.content {\\r\\n   display: grid;\\r\\n   margin: 3rem 5rem 3rem 2rem;\\r\\n}\\r\\n\\r\\n.content__title {\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n}\\r\\n\\r\\n.content__title::first-line {\\r\\n   background-color: #fff;\\r\\n }\\r\\n\\r\\n.content__text {\\r\\n   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);\\r\\n   -webkit-box-decoration-break: clone;\\r\\n   box-decoration-break: clone;\\r\\n   background-color: #e74c3c;\\r\\n   color: black;\\r\\n   padding: 0.2rem 1.5rem;\\r\\n   line-height: 2.2;\\r\\n   font-family: 'Oswald', 'sans-serif';\\r\\n}\\r\\n\\r\\n.content__text--sm {\\r\\n   line-height: normal;\\r\\n   text-align: center;\\r\\n   max-width: 24rem;\\r\\n}\\r\\n\\r\\n.content__text--black {\\r\\n   background-color: black;\\r\\n   color: #e74c3c;\\r\\n   box-shadow: 7px 7px 0px 0px #e74c3c;\\r\\n}\\r\\n\\r\\n.content--center {\\r\\n   justify-self: center;\\r\\n}\\r\\n\\r\\n.content__subtext {\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n   justify-self: end;\\r\\n   box-shadow: 7px 7px 0px 0px #e74c3c;\\r\\n   color: #e74c3c;\\r\\n   background-color: black;\\r\\n   padding: 1rem;\\r\\n   font-family: 'Oswald', 'sans-serif';\\r\\n}\\r\\n\\r\\n.card {\\r\\n   display: grid;\\r\\n   justify-self: center;\\r\\n   background-color: black;\\r\\n   margin: 2rem 0 2rem 0;\\r\\n   padding: 2rem;\\r\\n   max-width: 35rem;\\r\\n   font-size: 2rem;\\r\\n   font-weight: 600;\\r\\n   color: white;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n   box-sizing: border-box;\\r\\n   box-shadow: 7px 7px 0px 0px #e74c3c;\\r\\n}\\r\\n\\r\\n.card__image {\\r\\n   justify-self: center;\\r\\n   margin-bottom: 1rem;\\r\\n   width: 15rem;\\r\\n   height: 15rem;\\r\\n   border-radius: 50%;\\r\\n   object-fit: cover;\\r\\n   object-position: center center;\\r\\n}\\r\\n\\r\\n.card__text {\\r\\n   justify-self: center;\\r\\n   margin: 1rem 0;\\r\\n}\\r\\n\\r\\n.card__subtext {\\r\\n   justify-self: end;\\r\\n   margin: 0;\\r\\n}\\r\\n\\r\\nfooter {\\r\\n   text-align: center;\\r\\n   padding: 1rem;\\r\\n   font-family: 'Oswald', sans-serif;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restuarant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -176,87 +176,87 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _erina_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./erina.jpg */ \"./src/erina.jpg\");\n/* harmony import */ var _ryo_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ryo.jpg */ \"./src/ryo.jpg\");\n/* harmony import */ var _egg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./egg.png */ \"./src/egg.png\");\n/* harmony import */ var _roast_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./roast.jpg */ \"./src/roast.jpg\");\n/* harmony import */ var _transform_gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./transform.gif */ \"./src/transform.gif\");\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/header */ \"./src/components/header.js\");\n/* harmony import */ var _components_home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/home */ \"./src/components/home.js\");\n/* harmony import */ var _components_menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/menu */ \"./src/components/menu.js\");\n/* harmony import */ var _components_contact__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/contact */ \"./src/components/contact.js\");\n/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/footer */ \"./src/components/footer.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst main = () => {\r\n   const main = document.createElement('main');\r\n   main.appendChild(_components_home__WEBPACK_IMPORTED_MODULE_7__.home);\r\n\r\n   _components_header__WEBPACK_IMPORTED_MODULE_6__.header.nav__item_1.addEventListener('click', () => {\r\n      while (main.firstChild) {\r\n         main.removeChild(main.firstChild);\r\n      }\r\n      main.appendChild(_components_home__WEBPACK_IMPORTED_MODULE_7__.home);\r\n   });\r\n\r\n   _components_header__WEBPACK_IMPORTED_MODULE_6__.header.nav__item_2.addEventListener('click', () => {\r\n      while (main.firstChild) {\r\n         main.removeChild(main.firstChild);\r\n      }\r\n      main.appendChild(_components_menu__WEBPACK_IMPORTED_MODULE_8__.menu);\r\n   });\r\n\r\n   _components_header__WEBPACK_IMPORTED_MODULE_6__.header.nav__item_3.addEventListener('click', () => {\r\n      while (main.firstChild) {\r\n         main.removeChild(main.firstChild);\r\n      }\r\n      main.appendChild(_components_contact__WEBPACK_IMPORTED_MODULE_9__.contact);\r\n   });\r\n\r\n   return main;\r\n}\r\n\r\nconst content = document.getElementById('content')\r\ncontent.appendChild(_components_header__WEBPACK_IMPORTED_MODULE_6__.header.header);\r\ncontent.appendChild(main());\r\ncontent.appendChild(_components_footer__WEBPACK_IMPORTED_MODULE_10__.footer);\r\n\n\n//# sourceURL=webpack://restuarant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_erina_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/erina.jpg */ \"./src/assets/erina.jpg\");\n/* harmony import */ var _assets_ryo_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/ryo.jpg */ \"./src/assets/ryo.jpg\");\n/* harmony import */ var _assets_egg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/egg.png */ \"./src/assets/egg.png\");\n/* harmony import */ var _assets_roast_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/roast.jpg */ \"./src/assets/roast.jpg\");\n/* harmony import */ var _assets_transform_gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/transform.gif */ \"./src/assets/transform.gif\");\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/header */ \"./src/components/header.js\");\n/* harmony import */ var _components_home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/home */ \"./src/components/home.js\");\n/* harmony import */ var _components_menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/menu */ \"./src/components/menu.js\");\n/* harmony import */ var _components_contact__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/contact */ \"./src/components/contact.js\");\n/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/footer */ \"./src/components/footer.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst main = () => {\r\n   const main = document.createElement('main');\r\n   main.appendChild(_components_home__WEBPACK_IMPORTED_MODULE_7__.home);\r\n\r\n   _components_header__WEBPACK_IMPORTED_MODULE_6__.header.nav__item_1.addEventListener('click', () => {\r\n      while (main.firstChild) {\r\n         main.removeChild(main.firstChild);\r\n      }\r\n      main.appendChild(_components_home__WEBPACK_IMPORTED_MODULE_7__.home);\r\n   });\r\n\r\n   _components_header__WEBPACK_IMPORTED_MODULE_6__.header.nav__item_2.addEventListener('click', () => {\r\n      while (main.firstChild) {\r\n         main.removeChild(main.firstChild);\r\n      }\r\n      main.appendChild(_components_menu__WEBPACK_IMPORTED_MODULE_8__.menu);\r\n   });\r\n\r\n   _components_header__WEBPACK_IMPORTED_MODULE_6__.header.nav__item_3.addEventListener('click', () => {\r\n      while (main.firstChild) {\r\n         main.removeChild(main.firstChild);\r\n      }\r\n      main.appendChild(_components_contact__WEBPACK_IMPORTED_MODULE_9__.contact);\r\n   });\r\n\r\n   return main;\r\n}\r\n\r\nconst content = document.getElementById('content')\r\ncontent.appendChild(_components_header__WEBPACK_IMPORTED_MODULE_6__.header.header);\r\ncontent.appendChild(main());\r\ncontent.appendChild(_components_footer__WEBPACK_IMPORTED_MODULE_10__.footer);\r\n\n\n//# sourceURL=webpack://restuarant-page/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/egg.png":
-/*!*********************!*\
-  !*** ./src/egg.png ***!
-  \*********************/
+/***/ "./src/assets/egg.png":
+/*!****************************!*\
+  !*** ./src/assets/egg.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"egg.png\";\n\n//# sourceURL=webpack://restuarant-page/./src/egg.png?");
+eval("module.exports = __webpack_require__.p + \"egg.png\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/egg.png?");
 
 /***/ }),
 
-/***/ "./src/erina.jpg":
-/*!***********************!*\
-  !*** ./src/erina.jpg ***!
-  \***********************/
+/***/ "./src/assets/erina.jpg":
+/*!******************************!*\
+  !*** ./src/assets/erina.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"erina.jpg\";\n\n//# sourceURL=webpack://restuarant-page/./src/erina.jpg?");
+eval("module.exports = __webpack_require__.p + \"erina.jpg\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/erina.jpg?");
 
 /***/ }),
 
-/***/ "./src/oswald-bold.ttf":
-/*!*****************************!*\
-  !*** ./src/oswald-bold.ttf ***!
-  \*****************************/
+/***/ "./src/assets/oswald-bold.ttf":
+/*!************************************!*\
+  !*** ./src/assets/oswald-bold.ttf ***!
+  \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"oswald-bold.ttf\";\n\n//# sourceURL=webpack://restuarant-page/./src/oswald-bold.ttf?");
+eval("module.exports = __webpack_require__.p + \"oswald-bold.ttf\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/oswald-bold.ttf?");
 
 /***/ }),
 
-/***/ "./src/oswald.ttf":
-/*!************************!*\
-  !*** ./src/oswald.ttf ***!
-  \************************/
+/***/ "./src/assets/oswald.ttf":
+/*!*******************************!*\
+  !*** ./src/assets/oswald.ttf ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"oswald.ttf\";\n\n//# sourceURL=webpack://restuarant-page/./src/oswald.ttf?");
+eval("module.exports = __webpack_require__.p + \"oswald.ttf\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/oswald.ttf?");
 
 /***/ }),
 
-/***/ "./src/roast.jpg":
-/*!***********************!*\
-  !*** ./src/roast.jpg ***!
-  \***********************/
+/***/ "./src/assets/roast.jpg":
+/*!******************************!*\
+  !*** ./src/assets/roast.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"roast.jpg\";\n\n//# sourceURL=webpack://restuarant-page/./src/roast.jpg?");
+eval("module.exports = __webpack_require__.p + \"roast.jpg\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/roast.jpg?");
 
 /***/ }),
 
-/***/ "./src/ryo.jpg":
-/*!*********************!*\
-  !*** ./src/ryo.jpg ***!
-  \*********************/
+/***/ "./src/assets/ryo.jpg":
+/*!****************************!*\
+  !*** ./src/assets/ryo.jpg ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ryo.jpg\";\n\n//# sourceURL=webpack://restuarant-page/./src/ryo.jpg?");
+eval("module.exports = __webpack_require__.p + \"ryo.jpg\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/ryo.jpg?");
 
 /***/ }),
 
-/***/ "./src/sedona.ttf":
-/*!************************!*\
-  !*** ./src/sedona.ttf ***!
-  \************************/
+/***/ "./src/assets/sedona.ttf":
+/*!*******************************!*\
+  !*** ./src/assets/sedona.ttf ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"sedona.ttf\";\n\n//# sourceURL=webpack://restuarant-page/./src/sedona.ttf?");
+eval("module.exports = __webpack_require__.p + \"sedona.ttf\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/sedona.ttf?");
 
 /***/ }),
 
-/***/ "./src/transform.gif":
-/*!***************************!*\
-  !*** ./src/transform.gif ***!
-  \***************************/
+/***/ "./src/assets/transform.gif":
+/*!**********************************!*\
+  !*** ./src/assets/transform.gif ***!
+  \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"transform.gif\";\n\n//# sourceURL=webpack://restuarant-page/./src/transform.gif?");
+eval("module.exports = __webpack_require__.p + \"transform.gif\";\n\n//# sourceURL=webpack://restuarant-page/./src/assets/transform.gif?");
 
 /***/ })
 

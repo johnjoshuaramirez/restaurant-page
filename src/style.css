@@ -159,12 +159,7 @@ body {
 }
 
 footer {
-   text-align: start;
+   text-align: center;
    padding: 1rem;
    font-family: 'Oswald', sans-serif;
-}
-
-.home,
-.menu {
-   display: none;
 }
